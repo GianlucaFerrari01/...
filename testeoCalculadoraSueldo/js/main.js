@@ -1,4 +1,4 @@
-alert("Bienvenido al sistema de asistencia al empleado")
+/*alert("Bienvenido al sistema de asistencia al empleado")
 alert("Para realizar una verificación de su sueldo siga las intrucciones:")
 
 interfaz()
@@ -17,11 +17,11 @@ function interfaz () {
     let hext = Number(prompt("Horas extras trabajadas:"))
     const hex = (categoria + (categoria / 2))
 
-    calculadora( categoria,antiguedad,diast,hext,hex)
+    calculadora( categoria,diast,hext,hex)
 
 }
 
-function calculadora(categoria,antiguedad,diast,hex) {
+function calculadora(categoria,diast,hex) {
     let hnorfin;
     let hrexfin;
     let sueldoNormal;
